@@ -1,8 +1,8 @@
 import React from "react";
-import "./TaskOne.css"
+import "./TaskOne.css";
 
 function TaskOne() {
-  return <div>TaskOne</div>;
+  return <div className="taskOne">TaskOne</div>;
 }
 
 export default TaskOne;
