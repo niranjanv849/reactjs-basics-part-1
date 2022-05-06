@@ -1,2 +1,46 @@
 .taskOne {
+  margin: 10% 8%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 15px;
+}
+
+.taskOne > div:first-child {
+  font-size: larger;
+}
+
+.taskOne > div:nth-child(2) {
+  color: rgb(176, 134, 26);
+  text-decoration: underline;
+}
+
+.conversion__container {
+  margin-top: 5%;
+  align-items: center;
+  display: flex;
+}
+
+.conversion__input {
+  height: 40px;
+  width: 200px;
+  border-radius: 10px;
+  text-align: center;
+  border: 2px solid gray;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: large;
+  color: black;
+}
+
+.conversion__input:focus {
+  outline: none !important;
+  border: 2px solid gray;
+  box-shadow: 0 0 10px gray;
+}
+
+.conve {
+  font-size: small;
+  color: green;
 }
