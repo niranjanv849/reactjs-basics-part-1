@@ -12,3 +12,11 @@
   border-bottom: 1px solid gray;
   border-radius: 5px;
 }
+
+.home__text {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  font-size: larger;
+  text-decoration: underline;
+}

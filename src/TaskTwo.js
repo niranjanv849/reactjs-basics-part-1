@@ -1,10 +1,13 @@
-import React from 'react'
-import "./TaskTwo.css"
+import React from "react";
+import "./TaskTwo.css";
 
 function TaskTwo() {
+
   return (
-    <div>TaskTwo</div>
-  )
+    <div className="taskTwo">
+      🐥
+    </div>
+  );
 }
 
-export default TaskTwo
+export default TaskTwo;

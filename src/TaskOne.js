@@ -9,6 +9,8 @@ function TaskOne() {
   const [fahrenheit, setFahrenheit] = useState();
 
   const toFahrenheit = (e) => {
+    console.log(e.target.value);
+
     setCelsius(e.target.value);
     setFahrenheit((e.target.value * 9) / 5 + 32);
   };
