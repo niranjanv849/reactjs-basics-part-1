@@ -2,8 +2,9 @@
   height: 38px;
   background-color: #f44336;
   margin-bottom: 20px;
+  margin-top: 1%;
   border-radius: 10px;
-  min-width: 460px;
+  min-width: 465px;
   width: auto;
   display: flex;
   font-weight: 600;
