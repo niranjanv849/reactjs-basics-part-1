@@ -30,11 +30,11 @@
   border-radius: 15px;
   border: 1px solid grey;
   height: 2rem;
-  text-align: right;
+  text-align: center;
   font-size: large;
   padding-right: 15px;
   color: #fd5c54;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .add__remainder {

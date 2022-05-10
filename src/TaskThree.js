@@ -8,7 +8,7 @@ function TaskThree() {
     <div className="to__do">
       <h1>Todo App</h1>
       <div className="add__remainder">
-        <input className="tt__input" type="text" />
+        <input className="tt__input" type="text" placeholder="Add a new todo" />
         <button className="taskThreeButton">
           <img
             className="tt__img"
