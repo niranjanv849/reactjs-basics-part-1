@@ -5,6 +5,7 @@
   margin-top: 1%;
   border-radius: 10px;
   min-width: 465px;
+  cursor: pointer;
   width: auto;
   display: flex;
   font-weight: 600;
