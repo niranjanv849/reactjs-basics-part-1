@@ -1,0 +1,57 @@
+.to__do {
+  border: 1px solid red;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 7%;
+  max-width: 600px;
+  width: auto;
+  border: 2px solid rgb(160, 90, 227);
+  background-color: white;
+  border-radius: 15px;
+  height: auto;
+  max-height: 510px;
+}
+
+.tt__img {
+  object-fit: contain;
+  width: 2.3rem;
+}
+
+.taskThreeButton {
+  cursor: pointer;
+  border: none;
+  background-color: white;
+}
+
+.tt__input {
+  /* max-width: 400px; */
+  min-width: 400px;
+  width: auto;
+  border-radius: 15px;
+  border: 1px solid grey;
+  height: 2rem;
+  text-align: right;
+  font-size: large;
+  padding-right: 15px;
+  color: #fd5c54;
+  font-weight: 600;
+}
+
+.add__remainder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.remainder {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  margin-left: 12%;
+  color: blueviolet;
+}

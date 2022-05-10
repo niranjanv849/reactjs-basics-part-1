@@ -1,11 +1,29 @@
 import React from "react";
 import "./OutputScreenRow.css";
+import { useState } from "react";
 
-function OutputScreenRow() {
+function OutputScreenRow(props) {
+  const [inputData, setInputData] = useState();
+  // const [inputData,setInputData] = useState();
+  // const [inputData,setInputData] = useState();
+  // const [inputData,setInputData] = useState();
+
+  const [outputData, setOutputData] = useState();
+
   return (
     <div className="screen-row">
-      <input className="screen__inp" type="text" />
-      <input className="screen__inp2" type="text" />
+      <input
+        className="screen__inp"
+        type="String"
+        value={props.data}
+        readOnly
+      />
+      <input
+        className="screen__inp2"
+        type="String"
+        value={props.data * 9}
+        readOnly
+      />
     </div>
   );
 }

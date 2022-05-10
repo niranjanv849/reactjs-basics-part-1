@@ -1,12 +1,12 @@
 import React from "react";
 import OutputScreenRow from "../componentsForTaskTwo/OutputScreenRow";
 import "./OutputScreen.css";
+import { useState } from "react";
 
-const OutputScreen = () => {
+const OutputScreen = (props) => {
   return (
     <div className="screen">
-      <OutputScreenRow />
-      {/* <OutputScreenRow /> */}
+      <OutputScreenRow  data={props.data}/>
     </div>
   );
 };

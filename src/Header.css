@@ -12,6 +12,7 @@
 }
 
 .app__headerLogo {
+  object-fit: contain;
   width: 3rem;
   height: 3rem;
 }
@@ -20,12 +21,13 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  flex: 3;
+  min-width: 400px;
+  /* flex: 3; */
 }
 
 .app__headerRight > a {
   text-decoration: none;
-  width: 25%;
+  width: 20%;
   justify-content: center;
   padding-left: 25px;
 }
@@ -42,6 +44,12 @@
   font-size: larger;
 }
 
+@media only screen and (max-width: 620px) {
+  p {
+    display: none;
+  }
+}
+
 .app__header > div:nth-child(2) {
   background-color: lightblue;
   border: 1px solid lightgrey;
@@ -55,9 +63,9 @@
   color: white;
   border-radius: 10px;
 }
-/* 
-.app__headerRight > a.active {
+
+.app__headerRight > a:active {
   background-color: orange;
   color: white;
   border-radius: 10px;
-} */
+}

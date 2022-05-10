@@ -1,0 +1,30 @@
+.task {
+  height: 40px;
+  background-color: #f3f1f4;
+  margin-bottom: 10px;
+  max-width: 400px;
+  width: auto;
+  padding-left: 90px;
+  padding-right: 20px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  border: 0.8px solid lightgray;
+  justify-content: space-between;
+  display: flex;
+}
+
+.delete__task {
+  display: flex;
+  justify-content: flex-end;
+  object-fit: contain;
+  height: 1.5rem;
+}
+
+.delete__btn {
+  border: none;
+}
+
+p {
+  margin-right: 80px;
+}
