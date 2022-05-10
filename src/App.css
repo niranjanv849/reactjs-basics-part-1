@@ -20,3 +20,7 @@
   font-size: larger;
   text-decoration: underline;
 }
+
+::selection {
+  background-color: transparent;
+}

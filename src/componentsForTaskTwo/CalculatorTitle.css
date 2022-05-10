@@ -1,0 +1,9 @@
+.calc__title {
+  margin: 15px;
+  text-align: center;
+  font-size: large;
+  font-weight: 600;
+  background: -webkit-linear-gradient(rgb(248, 42, 42), rgb(93, 27, 227));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

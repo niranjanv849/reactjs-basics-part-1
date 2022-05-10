@@ -54,6 +54,10 @@
   background-color: orange;
   color: white;
   border-radius: 10px;
-  /* padding: 6px; */
-  /* height: 50px; */
 }
+/* 
+.app__headerRight > a.active {
+  background-color: orange;
+  color: white;
+  border-radius: 10px;
+} */

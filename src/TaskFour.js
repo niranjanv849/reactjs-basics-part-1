@@ -1,8 +1,8 @@
 import React from "react";
-import "./TaskFour.css"
+import "./TaskFour.css";
 
 function TaskFour() {
-  return <div>TaskFour</div>;
+  return <div>Roll the Dice App</div>;
 }
 
 export default TaskFour;

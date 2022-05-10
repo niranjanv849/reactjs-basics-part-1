@@ -1,8 +1,8 @@
 import React from "react";
-import "./TaskThree.css"
+import "./TaskThree.css";
 
 function TaskThree() {
-  return <div>TaskThree</div>;
+  return <div>To-Do App</div>;
 }
 
 export default TaskThree;

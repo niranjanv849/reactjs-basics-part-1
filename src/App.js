@@ -12,7 +12,10 @@ function App() {
       <BrowserRouter>
         <Header />
         <Routes>
-          <Route path="/" element={<div className="home__text">Welcome to home Page!</div>} />
+          <Route
+            path="/"
+            element={<div className="home__text">Welcome to home Page!</div>}
+          />
           <Route path="TaskOne" element={<TaskOne />} />
           <Route path="TaskTwo" element={<TaskTwo />} />
           <Route path="TaskThree" element={<TaskThree />} />
