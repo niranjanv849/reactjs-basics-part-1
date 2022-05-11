@@ -15,6 +15,7 @@
 .tt__img {
   object-fit: contain;
   width: 2.3rem;
+  margin-left: 5px;
 }
 
 .taskThreeButton {
@@ -25,13 +26,14 @@
 
 .tt__input {
   /* max-width: 400px; */
-  min-width: 400px;
+  min-width: 395px;
   width: auto;
   border-radius: 15px;
   border: 1px solid grey;
   height: 2rem;
   text-align: center;
   font-size: large;
+  margin-left: 10px;
   padding-right: 15px;
   color: #fd5c54;
   font-weight: 500;
