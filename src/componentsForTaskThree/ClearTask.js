@@ -1,9 +1,11 @@
 import React from "react";
 import "./ClearTask.css";
-function ClearTask() {
+function ClearTask(props) {
   return (
     <div>
-      <button className="clear__task">Delete all active tasks</button>
+      <button onClick={(e) => props.setData([])} className="clear__task">
+        Delete all active tasks
+      </button>
     </div>
   );
 }

@@ -5,7 +5,7 @@ function Task(props) {
   return (
     <div className="task">
       <div>
-        <p>Some Remainder was added here</p>
+        <p>{props.data}</p>
       </div>
       <div>
         <button className="delete__btn">
