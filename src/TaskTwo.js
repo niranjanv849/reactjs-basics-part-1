@@ -9,10 +9,10 @@ function TaskTwo() {
   const [data, setData] = useState(0);
   const event = (e) => {
     setData(e.target.value);
-    console.log("before value in state " + data);
+    // console.log("before value in state " + data);
   };
-  console.log("value in current state: " + data);
-  console.log("at vm react: " + data);
+  // console.log("value in current state: " + data);
+  // console.log("at vm react: " + data);
 
   return (
     <div className="frame">
