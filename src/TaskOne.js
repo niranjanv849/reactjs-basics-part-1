@@ -33,7 +33,7 @@ function TaskOne() {
           value={celsius}
           onChange={(e) => toFahrenheit(e)}
         />
-        <ReplayOutlined style={{ color: "grey" }} />
+        <ReplayOutlined className="muire" style={{ color: "grey" }} />
         <input
           className="conversion__input"
           type="number"

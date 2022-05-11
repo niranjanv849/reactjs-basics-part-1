@@ -1,0 +1,93 @@
+.tf__title {
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+  background: -webkit-linear-gradient(rgb(248, 42, 42), rgb(93, 27, 227));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: large;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tf {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.youtube__card {
+  display: flex;
+  flex-direction: column;
+  height: 260px;
+  width: 300px;
+  border-radius: 5px;
+  background-color: black;
+}
+
+.youtube__card1 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+  height: 260px;
+  width: 300px;
+  border-radius: 5px;
+  background-color: black;
+}
+
+.thumbnail__img {
+  height: 200px;
+  width: 300px;
+  margin-top: -15px;
+  object-fit: contain;
+}
+
+.card__titleWithImage {
+  margin-top: -5px;
+  align-items: center;
+  display: flex;
+  width: auto;
+  flex-direction: row;
+}
+
+.card__titleWithImage > img {
+  object-fit: contain;
+  width: 35px;
+  margin-left: 10px;
+  border-radius: 50%;
+}
+
+.card__titleWithImage > div {
+  align-items: center;
+  font-size: small;
+  margin-left: 10px;
+  color: white;
+  margin-top: 13px;
+  height: 50px;
+  width: 250px;
+  font-weight: 600;
+  word-wrap: break-word;
+}
+
+.card__footer {
+  margin-bottom: 15px;
+  color: lightgray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 18%;
+}
+
+.card__footer span {
+  font-size: x-small;
+  font-weight: 500;
+  z-index: 100px;
+}
+
+.ske {
+  margin-left: 10px;
+  margin-top: 17px;
+}
